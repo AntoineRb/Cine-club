@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.WARNING)
 
 
 CUR_DIR = os.path.dirname(__file__) #Path to current directory
-DATA_FILE = os.path.join(CUR_DIR, "data", "movies.json") #Path to Json file
+DATA_FILE = os.path.join(CUR_DIR, "movies.json") #Path to Json file
 
 def get_movies():
     """récupère une instance de la classe Movie pour chaque tire de films"""
